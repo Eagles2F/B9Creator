@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>618</width>
+    <width>732</width>
     <height>522</height>
    </rect>
   </property>
@@ -500,6 +500,9 @@
    </item>
    <item row="4" column="1" colspan="4">
     <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
      <property name="toolTip">
       <string>Print or Cancel the process</string>
      </property>

@@ -603,7 +603,7 @@ void B9PrinterComm::setProjectorPowerCmd(bool bPwrFlag){
         if(m_bIsMirrored) SendCmd("P4"); else SendCmd("P3");
     }
     else {
-        SendCmd("P0"); // Turn On Command
+        SendCmd("P0"); // Turn Off Command
         m_Status.setProjectorStatus(B9PrinterStatus::PS_COOLING);
     }
     m_Status.resetLastProjCmdTime();

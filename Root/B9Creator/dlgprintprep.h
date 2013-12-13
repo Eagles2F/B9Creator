@@ -80,6 +80,8 @@ private slots:
 
     void on_pushButtonReleaseCycle_clicked();
 
+    void on_buttonBox_accepted();
+
 public:
     int m_iTattachMS;
     int m_iNumAttach;
